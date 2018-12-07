@@ -1,0 +1,88 @@
+Enter String to be Encrypted     : enemy attacks tonight
+Enter Permutation Encryption Key : 3 1 4 5 2
+============================================
+//////////////// ENCRYPTING ////////////////
+============================================
+Message                          : enemy attacks tonight
+Formatting 1                     : enemyattackstonight
+Formatted Message                : enemyattackstonightz
+============================================
+///////// STEP : WRITE ROW BY ROW //////////
+============================================
+e n e m y 
+a t t a c 
+k s t o n 
+i g h t z 
+============================================
+////////////// STEP : PERMUTE //////////////
+============================================
+e e m y n 
+t a a c t 
+t k o n s 
+h i t z g 
+============================================
+///////// STEP : WRITE COL BY COL //////////
+============================================
+e t t h e a k i m a o t y c n z n t s g 
+Round One : ettheakimaotycnzntsg
+============================================
+///////// STEP : WRITE ROW BY ROW //////////
+============================================
+e t t h e 
+a k i m a 
+o t y c n 
+z n t s g 
+============================================
+////////////// STEP : PERMUTE //////////////
+============================================
+t e h e t 
+i a m a k 
+y o c n t 
+t z s g n 
+============================================
+///////// STEP : WRITE COL BY COL //////////
+============================================
+t i y t e a o z h m c s e a n g t k t n 
+Round Two : tiyteaozhmcseangtktn
+============================================
+//////////////// DECRYPTING ////////////////
+============================================
+Encrypted Text : tiyteaozhmcseangtktn
+Decryption Key : 2 5 1 3 4 
+============================================
+///////// STEP : WRITE COL BY COL //////////
+============================================
+t e h e t 
+i a m a k 
+y o c n t 
+t z s g n 
+============================================
+////////////// STEP : PERMUTE //////////////
+============================================
+e t t h e 
+a k i m a 
+o t y c n 
+z n t s g 
+============================================
+///////// STEP : WRITE ROW BY ROW //////////
+============================================
+Decryption Round1 : ettheakimaotycnzntsg
+
+============================================
+///////// STEP : WRITE COL BY COL //////////
+============================================
+e e m y n 
+t a a c t 
+t k o n s 
+h i t z g 
+============================================
+///////////// STEP : PERMUTE ///////////////
+============================================
+e n e m y 
+a t t a c 
+k s t o n 
+i g h t z 
+============================================
+///////// STEP : WRITE ROW BY ROW //////////
+============================================
+Decryption Round2 : enemyattackstonightz

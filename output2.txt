@@ -1,0 +1,96 @@
+Enter String to be Encrypted     : Double Transposition Cipher
+Enter Permutation Encryption Key : 3 1 4 5 2 6
+============================================
+//////////////// ENCRYPTING ////////////////
+============================================
+Message                          : Double Transposition Cipher
+Formatting 1                     : DoubleTranspositionCipher
+Formatted Message                : DoubleTranspositionCipherzzzzz
+============================================
+///////// STEP : WRITE ROW BY ROW //////////
+============================================
+D o u b l e 
+T r a n s p 
+o s i t i o 
+n C i p h e 
+r z z z z z 
+============================================
+////////////// STEP : PERMUTE //////////////
+============================================
+u D b l o e 
+a T n s r p 
+i o t i s o 
+i n p h C e 
+z r z z z z 
+============================================
+///////// STEP : WRITE COL BY COL //////////
+============================================
+u a i i z D T o n r b n t p z l s i h z o r s C z e p o e z 
+Round One : uaiizDTonrbntpzlsihzorsCzepoez
+============================================
+///////// STEP : WRITE ROW BY ROW //////////
+============================================
+u a i i z D 
+T o n r b n 
+t p z l s i 
+h z o r s C 
+z e p o e z 
+============================================
+////////////// STEP : PERMUTE //////////////
+============================================
+i u i z a D 
+n T r b o n 
+z t l s p i 
+o h r s z C 
+p z o e e z 
+============================================
+///////// STEP : WRITE COL BY COL //////////
+============================================
+i n z o p u T t h z i r l r o z b s s e a o p z e D n i C z 
+Round Two : inzopuTthzirlrozbsseaopzeDniCz
+============================================
+//////////////// DECRYPTING ////////////////
+============================================
+Encrypted Text : inzopuTthzirlrozbsseaopzeDniCz
+Decryption Key : 2 5 1 3 4 6 
+============================================
+///////// STEP : WRITE COL BY COL //////////
+============================================
+i u i z a D 
+n T r b o n 
+z t l s p i 
+o h r s z C 
+p z o e e z 
+============================================
+////////////// STEP : PERMUTE //////////////
+============================================
+u a i i z D 
+T o n r b n 
+t p z l s i 
+h z o r s C 
+z e p o e z 
+============================================
+///////// STEP : WRITE ROW BY ROW //////////
+============================================
+Decryption Round1 : uaiizDTonrbntpzlsihzorsCzepoez
+
+============================================
+///////// STEP : WRITE COL BY COL //////////
+============================================
+u D b l o e 
+a T n s r p 
+i o t i s o 
+i n p h C e 
+z r z z z z 
+============================================
+///////////// STEP : PERMUTE ///////////////
+============================================
+D o u b l e 
+T r a n s p 
+o s i t i o 
+n C i p h e 
+r z z z z z 
+============================================
+///////// STEP : WRITE ROW BY ROW //////////
+============================================
+Decryption Round2 : DoubleTranspositionCipherzzzzz
